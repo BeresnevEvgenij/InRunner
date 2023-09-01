@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div,select{
+     margin: 5px;
+}
+body{
+    height: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+   
+    
+    
+    background-image: url(zzzz.jpg);
+    background-size: cover;
+}
+header{
+    height: 80px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(219, 219, 219);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Handjet', cursive;
+    background: -webkit-linear-gradient(360deg, #ff2d00,#00ffff);                          
+    background: linear-gradient(360deg, #ff2d00,#00ffff);
+}
+
+/* main */
+main{
+    height: 95%;
+}
+.span-blok{
+  width: 500px;
+  padding-left: 60px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.conteiner{
+    width: 80%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #ff5757;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+
+    margin: 0 auto;
+    background-color: #25bbe9;
+}
+.add--info{
+    display: flex;
+    align-items: center;
+}
+.street{
+}
+
+.house{
+
+}
+
+
+.date{
+    height: 33px;
+}
+.btn {
+    width: 60px;
+    height: 35px;
+}
+/* ==== Список улиц */
+select {
+    width: 200px;
+    height: 35px;
+    font-size: 0.9rem;
+    padding: 2px 5px;
+  }
+  select:nth-child(2){
+    width: 35px;
+  }
+  select:nth-child(3){
+    width: 50px;
+  }
+  select:nth-child(4){
+    width: 80px;
+  }
+  select:nth-child(5){
+    width: 35px;
+  }
+
+/* ==== footer ==== */
+footer {
+    height: 5%;
+
+    display: flex;
+
+    color: #ff2d00;
+    background-color: black;
+}
